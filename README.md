@@ -24,9 +24,13 @@ localhost:4800/
 Routes:
 Available Vehicle IDs: 1234, 1235
 
-Route                       HTTP Verb           Description
-/vehicles/:id               GET                 Get all details of the vehicle 'id' (vin, color, doorCount, driveTrain)
-/vehicles/:id/doors         GET                 Get security details of vehicle 'id' with respect to doors locked or not
-/vehicles/:id/fuel          GET                 Get details of vehicle 'id' Fuel Range
-/vehicles/:id/battery       GET                 Get details of vehicle 'id' Battery Range
-/vehicles/:id/engine        POST                Success/Error on Start/Stop Engine of vehicle 'id'.
+Route('/vehicles/:id') | HTTP Verb(GET) | Description(Get all details of the vehicle 'id')
+
+Route('/vehicles/:id/doors') | HTTP Verb(GET) | Description(Get security details of vehicle 'id' with respect to doors locked or not)
+
+Route('/vehicles/:id/fuel') | HTTP Verb(GET) | Description(Get details of vehicle 'id' Fuel Range)
+
+Route('/vehicles/:id/battery') | HTTP Verb(GET) | Description(Get details of vehicle 'id' Battery Range)
+
+Route('/vehicles/:id/engine') | HTTP Verb(POST) | Description(Change status of the vehicle 'id'.)
+
