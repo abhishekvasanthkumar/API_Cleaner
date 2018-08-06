@@ -1,36 +1,34 @@
-API_Cleaner
+## **API_Cleaner!**
 
 An API Cleaner created with Node and ExpressJS. This project was built while completing a take home coding assignment in Node. The project is been deployed on Heroku.
 
-Dependencies:
-Express
-Body Parser
+**Dependencies:** 
 
-Setup and Usage:
-git clone https://github.com/abhishekvasanthkumar/API_Cleaner.git
+ 1. Express
+ 2. Body Parser
+
+**Setup and Usage:** 
+
+    git clone  https://github.com/abhishekvasanthkumar/API_Cleaner.git
 
 Install the dependencies using npm package manager
 
-npm install
+`npm install`
 
 In terminal type
 
-npm start
+    npm start
+
+
 
 Open browser on url
 
-localhost:4800/
+    localhost:4800/
 
-Routes:
-Available Vehicle IDs: 1234, 1235
 
-Route('/vehicles/:id') | HTTP Verb(GET) | Description(Get all details of the vehicle 'id')
+**Routes:** 
 
-Route('/vehicles/:id/doors') | HTTP Verb(GET) | Description(Get security details of vehicle 'id' with respect to doors locked or not)
+    Available Vehicle IDs: 1234, 1235
 
-Route('/vehicles/:id/fuel') | HTTP Verb(GET) | Description(Get details of vehicle 'id' Fuel Range)
-
-Route('/vehicles/:id/battery') | HTTP Verb(GET) | Description(Get details of vehicle 'id' Battery Range)
-
-Route('/vehicles/:id/engine') | HTTP Verb(POST) | Description(Change status of the vehicle 'id'.)
-
+   ![Rotes](https://s33.postimg.cc/510rfeyjz/Plain_Text_Tables_generator_Tables_Generator_com.png)
+    
